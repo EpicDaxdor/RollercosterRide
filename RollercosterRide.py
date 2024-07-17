@@ -4,7 +4,7 @@ bill = 0
 
 if height >= 120:
     print("You can ride the rollercoster! ")
-    age = int(input("What is your age ? "))
+    age = int(input("How old are you ? "))
     if age < 12:
         bill = 5
         print("Child Tickets Are £5.")
